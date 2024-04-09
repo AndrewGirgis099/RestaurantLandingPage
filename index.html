@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+<!-- slider lip -->
+<link rel="stylesheet" href="CSS/splide.min.css">
+<link rel="stylesheet" href="CSS/all.min.css">
+    <!-- owl.carousel.js -->
+    <link rel="stylesheet" href="CSS/owl.carousel.min.css">
+    <link rel="stylesheet" href="CSS/owl.theme.default.min.css">
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="CSS/animate.css">
+
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/rwp.css">
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <title>Document</title>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+          <a class="navbar-brand d-flex justify-content-center align-items-center" href="#">
+            <img src="Images/NavLogo.svg" alt="Nav-Logo">
+            <span class="ms-3 nav-text-logo fw-bolder">
+                <span class="text-Orange ">food<span class="text-light-Orange ">waGon</span></span>
+                
+            </span>
+          </a>
+          
+          <div class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <input type="checkbox" id="checkbox">
+            <label for="checkbox" class="toggle">
+            <div class="bar bar--top"></div>
+            <div class="bar bar--middle"></div>
+            <div class="bar bar--bottom"></div>
+            </label>
+          </div>
+
+    
+          <div class="collapse navbar-collapse  " id="navbarSupportedContent">
+           <div class="d-flex w-100 justify-content-around nav-sm">
+                <div class="text-gray d-flex justify-content-center align-items-center text-18">
+                    <p><div class="d-flex align-items-center justify-content-center">
+                        <span class="fw-bolder ">Deliver to:</span>
+                        <img src="Images/map-marker-alt.svg" class="mx-2" alt="Location">
+                    </div>
+                    <span>Current Location <span class="fw-bolder">Mohammadpur Bus Stand, Dhaka</span></span></p>
+                </div>
+                <ul class="navbar-nav  mb-2 mb-lg-0 d-flex justify-content-between nav-sm">
+                
+                <li class="nav-item d-flex justify-content-center align-items-center cursor mx-2">
+                    <img src="Images/Search.svg" alt="Search">
+                    <a class="nav-link text-18 fw-bolder" href="#">Search</a>
+                </li>
+
+                <button class="btn btn-light btn-nav fw-bolder text-Orange d-flex align-items-center text-18 bg-white px-3">
+                    <img src="Images/user.svg" alt="User-Btn">
+                    <span class="ms-2">Login</span>
+                </button>
+            
+            
+                </ul>
+           </div>
+           
+          </div>
+        </div>
+    </nav>
+
+    <section class=" bg-light-Orange pt-5">
+        <div class="container">
+            <div class="row justify-content-between align-items-end ">
+                <div class="col-md-12  col-lg-7 py-md-5 wow slideInLeft ">
+                    <h1 class="text-white fw-bolder">Are you starving?</h1>
+                    <p>Within a few clicks, find meals that are accessible near you</p>
+                    <div class="bg-white rounded rounded-4 mb-4">
+                        <div class="d-flex align-items-center p-4">
+                            <div class="d-flex align-items-center bg-Servecies me-3 py-2 px-3 rounded rounded-2">
+                                <img src="Images/Delavery.svg" alt="Delivery">
+                                <span class="text-Orange fw-bolder ms-2">Delivery</span>
+                            </div>
+                            <div class="d-flex align-items-center ">
+                                <img src="Images/Pickup.svg" alt="Pickup">
+                                <span class=" fw-bolder ms-2">Pickup</span>
+                            </div>
+                        </div>
+                        <div class="p-4 d-flex align-items-center flex-wrap ">
+                            <input type="text" placeholder="Enter Your Address Address" class="form-control w-75 width-100">
+                            <button class="d-flex align-items-center btn btn-light btn-Lin-Purple p-2 px-3 mt-lg-0 width-100  mt-md-0 mt-sm-4">
+                                <img src="Images/searchserv.svg" alt="Search">
+                                <span class="text-white ms-2">Find Food</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12  col-lg-4 order-lg-last   order-sm-first wow slideInRight">
+                    <div class="position-relative">
+                        <div class="position-relative z-3  " >
+                            <img src="Images/Image_Base-removebg-preview.png" alt="Home Meal " class="w-100 ">
+                        </div>
+                        <div class="Overlay position-absolute    bottom-0 rounded rounded-circle  bg-tarnparnt"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container py-5">
+        <div class="row g-3">
+            <div class="col-md-6 col-lg-3 wow flipInX">
+                <div class="position-relative">
+                    <div class="overflow-hidden rounded-4">
+                        <img src="Images/discount01.png" class="w-100 rounded rounded-4 scale-img" alt="">
+                    </div>
+                    <div class="discount position-absolute bg-light-Orange d-flex align-items-center justify-content-center">
+                        <div class="d-flex align-items-center text-center justify-content-center ">
+                            <div class="pe-2">
+                                <span class="h1 fw-bolder text-white">15</span>
+                            </div>
+                            <div class="d-flex flex-column ">
+                                <span class="text-white fs-5 fw-bolder">%</span>
+                                <span class="text-white p-0">Off</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pt-4 pb-3">
+                    <h2 class="h6 fw-bolder">Greys Vage</h2>
+                    <span class="fw-bolder text-Orange bg-Servecies rounded-2 py-2 px-3">6 Days Remaining</span>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 wow flipInX">
+                <div class="position-relative">
+                    <div class="overflow-hidden rounded-4">
+                        <img src="Images/disccount02.png" class="w-100 rounded rounded-4 scale-img" alt="">
+                    </div>
+                    <div class="discount position-absolute bg-light-Orange d-flex align-items-center justify-content-center">
+                        <div class="d-flex align-items-center text-center justify-content-center ">
+                            <div class="pe-2">
+                                <span class="h1 fw-bolder text-white">10</span>
+                            </div>
+                            <div class="d-flex flex-column gap-0">
+                                <span class="text-white fs-5 fw-bolder">%</span>
+                                <span class="text-white p-0">Off</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pt-4 pb-3">
+                    <h2 class="h6 fw-bolder">Greys Vage</h2>
+                    <span class="fw-bolder text-Orange bg-Servecies rounded-2 py-2 px-3">6 Days Remaining</span>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 wow flipInX">
+                <div class="position-relative">
+                    <div class="overflow-hidden rounded-4">
+                        <img src="Images/discount03.png" class="w-100 rounded rounded-4 scale-img" alt="">
+                    </div>
+                    <div class="discount position-absolute bg-light-Orange d-flex align-items-center justify-content-center">
+                        <div class="d-flex align-items-center text-center justify-content-center ">
+                            <div class="pe-2">
+                                <span class="h1 fw-bolder text-white">25</span>
+                            </div>
+                            <div class="d-flex flex-column gap-0">
+                                <span class="text-white fs-5 fw-bolder">%</span>
+                                <span class="text-white p-0">Off</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pt-4 pb-3">
+                    <h2 class="h6 fw-bolder">Greys Vage</h2>
+                    <span class="fw-bolder text-Orange bg-Servecies rounded-2 py-2 px-3">6 Days Remaining</span>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 wow flipInX">
+                <div class="position-relative">
+                    <div class="overflow-hidden rounded-4">
+                        <img src="Images/discount04.png" class="w-100 rounded rounded-4 scale-img" alt="">
+                    </div>
+                    <div class="discount position-absolute bg-light-Orange d-flex align-items-center justify-content-center">
+                        <div class="d-flex align-items-center text-center justify-content-center ">
+                            <div class="pe-2">
+                                <span class="h1 fw-bolder text-white">20</span>
+                            </div>
+                            <div class="d-flex flex-column gap-0">
+                                <span class="text-white fs-5 fw-bolder">%</span>
+                                <span class="text-white p-0">Off</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pt-4 pb-3">
+                    <h2 class="h6 fw-bolder">Greys Vage</h2>
+                    <span class="fw-bolder text-Orange bg-Servecies rounded-2 py-2 px-3">6 Days Remaining</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class=" py-5 bg-linear-gired ">
+        <div class="container p-1  wow fadeInUp">
+            <div class=" d-flex justify-content-center">
+                <h2 class=" fw-bold text-Orange">How does it work</h2>
+            </div>
+            <div class="row py-5">
+                <div class="col-sm-6 col-lg-3">
+                    <div class="text-center">
+                        <div>
+                            <img src="Images/Icon-removebg-preview.png" alt="">
+                        </div>
+                        <div>
+                            <h3 class="fw-bold h4">Select location</h3>
+                            <p class="text-w-gray">Choose the location where your food will be delivered.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="text-center">
+                        <div>
+                            <img src="Images/work02.svg" alt="">
+                        </div>
+                        <div>
+                            <h3 class="fw-bold h4">Choose order</h3>
+                            <p class="text-w-gray">Check over hundreds of menus to pick your favorite food</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="text-center">
+                        <div>
+                            <img src="Images/work03.svg" alt="">
+                        </div>
+                        <div>
+                            <h3 class="fw-bold h4">Pay advanced</h3>
+                            <p class="text-w-gray">It's quick, safe, and simple. Select several methods of payment</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="text-center">
+                        <div>
+                            <img src="Images/work4.svg" alt="">
+                        </div>
+                        <div>
+                            <h3 class="fw-bold h4">Enjoy meals</h3>
+                            <p class="text-w-gray">Food is made and delivered directly to your home.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+   
+    </section>
+
+
+    
+    <section class="py-5 container">
+        <div class="d-flex justify-content-center align-items-center pb-5">
+            <h2 class="fw-bolder text-black">Popular items</h2>
+        </div>
+
+        <section class="splide wow fadeInUp" aria-label="Splide Basic HTML Example ">
+            <div class="splide__track">
+                  <ul class="splide__list">
+                     
+                      <li class="splide__slide p-3">
+                           <div>
+                                    <div class="overflow-hidden rounded-4">
+                                        <img src="Images/Popular01.png" class="w-100 rounded-4 scale-img" alt="Cheese Burger">
+                                    </div>
+                                    <div class="d-flex flex-column mt-3">
+                                        <h3 class="h5">Cheese Burger</h3>
+                                        <span class="text-light-Orange"><i class="fa-solid fa-location-dot me-2 pb-2 "></i>Burger Arena</span>
+                                        <span class="fw-bold text-black">$3.88</span>
+                                    </div>
+                                    <button class="btn btn-warning bg-Orange text-white fw-bold w-100 py-2 mt-2">Order Now</button>
+                           </div>
+                      </li>
+                      <li class="splide__slide p-3">
+                        <div>
+                            <div class="overflow-hidden rounded-4">
+                                <img src="Images/Popular02.png" class="w-100 rounded-4 scale-img" alt="Toffe’s Cake">
+                            </div>
+                            <div class="d-flex flex-column mt-3">
+                                <h3 class="h5">Toffe’s Cake</h3>
+                                <span class="text-light-Orange"><i class="fa-solid fa-location-dot me-2 pb-2 "></i>Top Sticks</span>
+                                <span class="fw-bold text-black">$4.00</span>
+                            </div>
+                            <button class="btn btn-warning bg-Orange text-white fw-bold w-100 py-2 mt-2">Order Now</button>
+                        </div>
+                      </li>
+                      <li class="splide__slide p-3">
+                        <div>
+                            <div class="overflow-hidden rounded-4">
+                                <img src="Images/Popular03.png" class="w-100 rounded-4 scale-img" alt="Dancake">
+                            </div>
+                            <div class="d-flex flex-column mt-3">
+                                <h3 class="h5">Dancake</h3>
+                                <span class="text-light-Orange"><i class="fa-solid fa-location-dot me-2 pb-2 "></i>Cake World</span>
+                                <span class="fw-bold text-black">$1.99</span>
+                            </div>
+                            <button class="btn btn-warning bg-Orange text-white fw-bold w-100 py-2 mt-2">Order Now</button>
+                        </div>
+                      </li>
+                      <li class="splide__slide p-3">
+                        <div>
+                            <div class="overflow-hidden rounded-4">
+                                <img src="Images/Popular04.png" class="w-100 rounded-4 scale-img" alt="Crispy Sandwitch">
+                            </div>
+                            <div class="d-flex flex-column mt-3">
+                                <h3 class="h5">Crispy Sandwitch</h3>
+                                <span class="text-light-Orange"><i class="fa-solid fa-location-dot me-2 pb-2 "></i>Fastfood Dine</span>
+                                <span class="fw-bold text-black">$3.00</span>
+                            </div>
+                            <button class="btn btn-warning bg-Orange text-white fw-bold w-100 py-2 mt-2">Order Now</button>
+                        </div>
+                      </li>
+                      <li class="splide__slide p-3">
+                        <div>
+                            <div class="overflow-hidden rounded-4">
+                                <img src="Images/popular05.png" class="w-100 rounded-4 scale-img" alt="Thai  Soup">
+                            </div>
+                            <div class="d-flex flex-column mt-3">
+                                <h3 class="h5">Thai Soup</h3>
+                                <span class="text-light-Orange"><i class="fa-solid fa-location-dot me-2 pb-2 "></i>Foody man</span>
+                                <span class="fw-bold text-black">$2.79</span>
+                            </div>
+                            <button class="btn btn-warning bg-Orange text-white fw-bold w-100 py-2 mt-2">Order Now</button>
+                        </div>
+                      </li>
+                      <li class="splide__slide p-3">
+                           <div>
+                                    <div class="overflow-hidden rounded-4">
+                                        <img src="Images/Popular01.png" class="w-100 rounded-4 scale-img" alt="Cheese Burger">
+                                    </div>
+                                    <div class="d-flex flex-column mt-3">
+                                        <h3 class="h5">Cheese Burger</h3>
+                                        <span class="text-light-Orange"><i class="fa-solid fa-location-dot me-2 pb-2 "></i>Burger Arena</span>
+                                        <span class="fw-bold text-black">$3.88</span>
+                                    </div>
+                                    <button class="btn btn-warning bg-Orange text-white fw-bold w-100 py-2 mt-2">Order Now</button>
+                           </div>
+                      </li>
+                      <li class="splide__slide p-3">
+                        <div>
+                            <div class="overflow-hidden rounded-4">
+                                <img src="Images/Popular02.png" class="w-100 rounded-4 scale-img" alt="Toffe’s Cake">
+                            </div>
+                            <div class="d-flex flex-column mt-3">
+                                <h3 class="h5">Toffe’s Cake</h3>
+                                <span class="text-light-Orange"><i class="fa-solid fa-location-dot me-2 pb-2 "></i>Top Sticks</span>
+                                <span class="fw-bold text-black">$4.00</span>
+                            </div>
+                            <button class="btn btn-warning bg-Orange text-white fw-bold w-100 py-2 mt-2">Order Now</button>
+                        </div>
+                      </li>
+                      <li class="splide__slide p-3">
+                        <div>
+                            <div class="overflow-hidden rounded-4">
+                                <img src="Images/Popular03.png" class="w-100 rounded-4 scale-img" alt="Dancake">
+                            </div>
+                            <div class="d-flex flex-column mt-3">
+                                <h3 class="h5">Dancake</h3>
+                                <span class="text-light-Orange"><i class="fa-solid fa-location-dot me-2 pb-2 "></i>Cake World</span>
+                                <span class="fw-bold text-black">$1.99</span>
+                            </div>
+                            <button class="btn btn-warning bg-Orange text-white fw-bold w-100 py-2 mt-2">Order Now</button>
+                        </div>
+                      </li>
+                      <li class="splide__slide p-3">
+                        <div>
+                            <div class="overflow-hidden rounded-4">
+                                <img src="Images/Popular04.png" class="w-100 rounded-4 scale-img" alt="Crispy Sandwitch">
+                            </div>
+                            <div class="d-flex flex-column mt-3">
+                                <h3 class="h5">Crispy Sandwitch</h3>
+                                <span class="text-light-Orange"><i class="fa-solid fa-location-dot me-2 pb-2 "></i>Fastfood Dine</span>
+                                <span class="fw-bold text-black">$3.00</span>
+                            </div>
+                            <button class="btn btn-warning bg-Orange text-white fw-bold w-100 py-2 mt-2">Order Now</button>
+                        </div>
+                      </li>
+                      <li class="splide__slide p-3">
+                        <div>
+                            <div class="overflow-hidden rounded-4">
+                                <img src="Images/popular05.png" class="w-100 rounded-4 scale-img" alt="Thai  Soup">
+                            </div>
+                            <div class="d-flex flex-column mt-3">
+                                <h3 class="h5">Thai Soup</h3>
+                                <span class="text-light-Orange"><i class="fa-solid fa-location-dot me-2 pb-2 "></i>Foody man</span>
+                                <span class="fw-bold text-black">$2.79</span>
+                            </div>
+                            <button class="btn btn-warning bg-Orange text-white fw-bold w-100 py-2 mt-2">Order Now</button>
+                        </div>
+                      </li>
+
+                  </ul>
+            </div>
+          </section>
+        
+    
+
+      
+    </section>
+
+    <section class="py-5 container">
+        <div class="d-flex justify-content-center align-items-center pb-5">
+            <h2 class="fw-bolder text-black">Featured Restaurants</h2>
+        </div>
+
+        <div class="row gy-4 gy-sm-5 wow fadeInDown">
+            <div class="col-md-6 col-lg-3">
+                <div>
+                    <div class="position-relative"> 
+                        <div class="overflow-hidden rounded-3">
+                            <img src="Images/Featured01.png" class="w-100 rounded rounded-3 scale-img-f" alt="">
+                        </div>
+                        <div class="Featured-Overlay position-absolute top-0 bottom-0 start-0 end-0 rounded rounded-3  ">
+                            <div class="d-flex gap-2 m-3">
+                               <span class="bg-Orange fw-bold text-white py-1 px-3 rounded rounded-2"><i class="fa-solid fa-tag me-2"></i>20% off</span>
+                               <span class=" bg-light-Orange fw-bold text-white py-1 px-3 rounded rounded-2"><i class="fa-solid fa-clock me-2"></i>Fast</span>
+                            </div>
+                        </div>
+                    </div>
+                 <div>
+                    <div class="d-flex  align-items-center gap-3 py-3">
+                        <div>
+                            <img src="Images/Featuredsm01.png" alt="Foodworld">
+                        </div>
+                        <div class=" d-flex flex-column justify-content-start">   
+                            <span class="fw-bolder">Foodworld</span>
+                            <span class="text-light-Orange"><i class="fa-solid fa-star me-2 "></i>46</span>
+                        </div>
+                    </div>
+                    <div>
+                        <span class="Opens-tomorrow fw-bold py-1 px-3 rounded rounded-4">Opens tomorrow</span>
+                    </div>
+                 </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div>
+                    <div class="position-relative"> 
+                        <div>
+                            <img src="Images/Featured02.png" class="w-100 rounded rounded-3" alt="">
+                        </div>
+                        <div class="Featured-Overlay position-absolute top-0 bottom-0 start-0 end-0 rounded rounded-3 ">
+                            <div class="d-flex gap-2 m-3">
+                               <span class="bg-Orange fw-bold text-white py-1 px-3 rounded rounded-2"><i class="fa-solid fa-tag me-2"></i>15% off</span>
+                               <span class=" bg-light-Orange fw-bold text-white py-1 px-3 rounded rounded-2"><i class="fa-solid fa-clock me-2"></i>Fast</span>
+                            </div>
+                        </div>
+                    </div>
+                 <div>
+                    <div class="d-flex  align-items-center gap-3 py-3">
+                        <div>
+                            <img src="Images/Featuredsm02.png" alt="Pizzahub">
+                        </div>
+                        <div class=" d-flex flex-column justify-content-start">   
+                            <span class="fw-bolder">Pizzahub</span>
+                            <span class="text-light-Orange"><i class="fa-solid fa-star me-2 "></i>40</span>
+                        </div>
+                    </div>
+                    <div>
+                        <span class="Opens-tomorrow fw-bold py-1 px-3 rounded rounded-4">Opens tomorrow</span>
+                    </div>
+                 </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div>
+                    <div class="position-relative"> 
+                        <div>
+                            <img src="Images/Featured03.png" class="w-100 rounded rounded-3" alt="">
+                        </div>
+                        <div class="Featured-Overlay position-absolute top-0 bottom-0 start-0 end-0 rounded rounded-3 ">
+                            <div class="d-flex gap-2 m-3">
+                               <span class="bg-Orange fw-bold text-white py-1 px-3 rounded rounded-2"><i class="fa-solid fa-tag me-2"></i>10% off</span>
+                               <span class=" bg-light-Orange fw-bold text-white py-1 px-3 rounded rounded-2"><i class="fa-solid fa-clock me-2"></i>Fast</span>
+                            </div>
+                        </div>
+                    </div>
+                 <div>
+                    <div class="d-flex  align-items-center gap-3 py-3">
+                        <div>
+                            <img src="Images/Featuredsm03.png" alt="Donuts hut">
+                        </div>
+                        <div class=" d-flex flex-column justify-content-start">   
+                            <span class="fw-bolder">Donuts hut</span>
+                            <span class="text-light-Orange"><i class="fa-solid fa-star me-2 "></i>20</span>
+                        </div>
+                    </div>
+                    <div>
+                        <span class="Open-Now fw-bold py-1 px-3 rounded rounded-4">Open Now</span>
+                    </div>
+                 </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div>
+                    <div class="position-relative"> 
+                        <div>
+                            <img src="Images/Featured.png" class="w-100 rounded rounded-3" alt="">
+                        </div>
+                        <div class="Featured-Overlay position-absolute top-0 bottom-0 start-0 end-0 rounded rounded-3 ">
+                            <div class="d-flex gap-2 m-3">
+                               <span class="bg-Orange fw-bold text-white py-1 px-3 rounded rounded-2"><i class="fa-solid fa-tag me-2"></i>15% off</span>
+                               <span class=" bg-light-Orange fw-bold text-white py-1 px-3 rounded rounded-2"><i class="fa-solid fa-clock me-2"></i>Fast</span>
+                            </div>
+                        </div>
+                    </div>
+                 <div>
+                    <div class="d-flex  align-items-center gap-3 py-3">
+                        <div>
+                            <img src="Images/Featuredsm04.png" alt="Donuts hut">
+                        </div>
+                        <div class=" d-flex flex-column justify-content-start">   
+                            <span class="fw-bolder">Donuts hut</span>
+                            <span class="text-light-Orange"><i class="fa-solid fa-star me-2 "></i>50</span>
+                        </div>
+                    </div>
+                    <div>
+                        <span class="Open-Now fw-bold py-1 px-3 rounded rounded-4"> Open Now</span>
+                    </div>
+                 </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div>
+                    <div class="position-relative"> 
+                        <div>
+                            <img src="Images/Featured05.png" class="w-100 rounded rounded-3" alt="">
+                        </div>
+                        <div class="Featured-Overlay position-absolute top-0 bottom-0 start-0 end-0 rounded rounded-3 ">
+                            <div class="d-flex gap-2 m-3">
+                               <span class="bg-Orange fw-bold text-white py-1 px-3 rounded rounded-2"><i class="fa-solid fa-tag me-2"></i>10% off</span>
+                               <span class=" bg-light-Orange fw-bold text-white py-1 px-3 rounded rounded-2"><i class="fa-solid fa-clock me-2"></i>Fast</span>
+                            </div>
+                        </div>
+                    </div>
+                 <div>
+                    <div class="d-flex  align-items-center gap-3 py-3">
+                        <div>
+                            <img src="Images/Featuredsm05.png" alt="Ruby Tuesday">
+                        </div>
+                        <div class=" d-flex flex-column justify-content-start">   
+                            <span class="fw-bolder">Ruby Tuesday</span>
+                            <span class="text-light-Orange"><i class="fa-solid fa-star me-2 "></i>26</span>
+                        </div>
+                    </div>
+                    <div>
+                        <span class="Open-Now fw-bold py-1 px-3 rounded rounded-4">Open Now</span>
+                    </div>
+                 </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div>
+                    <div class="position-relative"> 
+                        <div>
+                            <img src="Images/Featured06.png" class="w-100 rounded rounded-3" alt="">
+                        </div>
+                        <div class="Featured-Overlay position-absolute top-0 bottom-0 start-0 end-0 rounded rounded-3 ">
+                            <div class="d-flex gap-2 m-3">
+                               <span class="bg-Orange fw-bold text-white py-1 px-3 rounded rounded-2"><i class="fa-solid fa-tag me-2"></i>25% off</span>
+                               <span class=" bg-light-Orange fw-bold text-white py-1 px-3 rounded rounded-2"><i class="fa-solid fa-clock me-2"></i>Fast</span>
+                            </div>
+                        </div>
+                    </div>
+                 <div>
+                    <div class="d-flex  align-items-center gap-3 py-3">
+                        <div>
+                            <img src="Images/Featuredsm06.png" alt="Kuakata Fried Chicken">
+                        </div>
+                        <div class=" d-flex flex-column justify-content-start">   
+                            <span class="fw-bolder">Kuakata Fried Chicken</span>
+                            <span class="text-light-Orange"><i class="fa-solid fa-star me-2 "></i>53</span>
+                        </div>
+                    </div>
+                    <div>
+                        <span class="Open-Now fw-bold py-1 px-3 rounded rounded-4">Open Now</span>
+                    </div>
+                 </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div>
+                    <div class="position-relative"> 
+                        <div>
+                            <img src="Images/Featured07.png" class="w-100 rounded rounded-3" alt="">
+                        </div>
+                        <div class="Featured-Overlay position-absolute top-0 bottom-0 start-0 end-0 rounded rounded-3 ">
+                            <div class="d-flex gap-2 m-3">
+                               <span class="bg-Orange fw-bold text-white py-1 px-3 rounded rounded-2"><i class="fa-solid fa-tag me-2"></i>10% off</span>
+                               <span class=" bg-light-Orange fw-bold text-white py-1 px-3 rounded rounded-2"><i class="fa-solid fa-clock me-2"></i>Fast</span>
+                            </div>
+                        </div>
+                    </div>
+                 <div>
+                    <div class="d-flex  align-items-center gap-3 py-3">
+                        <div>
+                            <img src="Images/Featuredsm07.png" alt="Kuakata Fried Chicken">
+                        </div>
+                        <div class=" d-flex flex-column justify-content-start">   
+                            <span class="fw-bolder">Red Square</span>
+                            <span class="text-light-Orange"><i class="fa-solid fa-star me-2 "></i>45</span>
+                        </div>
+                    </div>
+                    <div>
+                        <span class="Open-Now fw-bold py-1 px-3 rounded rounded-4">Open Now</span>
+                    </div>
+                 </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div>
+                    <div class="position-relative"> 
+                        <div>
+                            <img src="Images/Featured08.png" class="w-100 rounded rounded-3" alt="">
+                        </div>
+                        <div class="Featured-Overlay position-absolute top-0 bottom-0 start-0 end-0 rounded rounded-3 ">
+                            <div class="d-flex gap-2 m-3">
+                               <span class="bg-Orange fw-bold text-white py-1 px-3 rounded rounded-2"><i class="fa-solid fa-tag me-2"></i>10% off</span>
+                               <span class=" bg-light-Orange fw-bold text-white py-1 px-3 rounded rounded-2"><i class="fa-solid fa-clock me-2"></i>Fast</span>
+                            </div>
+                        </div>
+                    </div>
+                 <div>
+                    <div class="d-flex  align-items-center gap-3 py-3">
+                        <div>
+                            <img src="Images/Featuredsm08.png" alt="Kuakata Fried Chicken">
+                        </div>
+                        <div class=" d-flex flex-column justify-content-start">   
+                            <span class="fw-bolder">Taco Bell</span>
+                            <span class="text-light-Orange"><i class="fa-solid fa-star me-2 "></i>35</span>
+                        </div>
+                    </div>
+                    <div>
+                        <span class="Open-Now fw-bold py-1 px-3 rounded rounded-4">Open Now</span>
+                    </div>
+                 </div>
+                </div>
+            </div>
+           
+        </div>
+
+        <div class=" py-5  d-flex justify-content-center align-items-center">
+            <button class="btn btn-warning  bg-light-Orange text-white fs-6 px-4 py-2"> View All <i class="fa-solid fa-chevron-right ms-2"></i></button>
+        </div>
+
+    </section>
+
+    <section class=" pt-5  bg-section">
+    
+        <div class="container">
+            <div class="py-3">
+                <h2 class="fw-bolder h3">Search by Food</h2>
+            </div>
+            <div class="owl-carousel pb-3 wow fadeInDown">
+                <div> 
+                    <div class="overflow-hidden rounded rounded-circle">
+                        <img src="Images/Search01.png" class="rounded rounded-circle w-100 scale-img"  alt="">
+                    </div>
+                </div>
+                <div> 
+                    <div  class="overflow-hidden rounded rounded-circle">
+                        <img src="Images/Search02.png" class="rounded rounded-circle w-100 scale-img"  alt="">
+                    </div>
+                </div>
+                <div> 
+                    <div class="overflow-hidden rounded rounded-circle">
+                        <img src="Images/Search03.png" class="rounded rounded-circle w-100 scale-img"  alt="">
+                    </div>
+                </div>
+                <div> 
+                    <div class="overflow-hidden rounded rounded-circle">
+                        <img src="Images/Search04.png" class="rounded rounded-circle w-100 scale-img"  alt="">
+                    </div>
+                </div>
+                <div> 
+                    <div class="overflow-hidden rounded rounded-circle">
+                        <img src="Images/Search05.png" class="rounded rounded-circle w-100 scale-img"  alt="">
+                    </div>
+                </div>
+                <div> 
+                    <div class="overflow-hidden rounded rounded-circle">
+                        <img src="Images/Search06.png" class="rounded rounded-circle w-100 scale-img"  alt="">
+                    </div>
+                </div>
+                <div> 
+                    <div class="overflow-hidden rounded rounded-circle">
+                        <img src="Images/Search01.png" class="rounded rounded-circle w-100 scale-img"  alt="">
+                    </div>
+                </div>
+                <div> 
+                    <div class="overflow-hidden rounded rounded-circle">
+                        <img src="Images/Search02.png" class="rounded rounded-circle w-100 scale-img"  alt="">
+                    </div>
+                </div>
+                <div> 
+                    <div class="overflow-hidden rounded rounded-circle">
+                        <img src="Images/Search03.png" class="rounded rounded-circle w-100 scale-img"  alt="">
+                    </div>
+                </div>
+                <div> 
+                    <div class="overflow-hidden rounded rounded-circle">
+                        <img src="Images/Search04.png" class="rounded rounded-circle w-100 scale-img"  alt="">
+                    </div>
+                </div>
+                <div> 
+                    <div class="overflow-hidden rounded rounded-circle">
+                        <img src="Images/Search05.png" class="rounded rounded-circle w-100 scale-img"  alt="">
+                    </div>
+                </div>
+                <div> 
+                    <div class="overflow-hidden rounded rounded-circle">
+                        <img src="Images/Search06.png" class="rounded rounded-circle w-100 scale-img"  alt="">
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+
+
+
+
+    </section>
+    
+    <section class="bg-light-pink pt-5 position-relative"> 
+     <div class="container  position-relative z-3">
+        <div class=" py-3 wow slideInDown">
+            <div class="bg-white w-75 m-auto rounded-5 d-flex align-items-center justify-content-around shadow-lg p-4 ">
+                <div class="d-flex align-items-center  ">
+                    <img src="Images/Icon01.png" class="img-app" alt="">
+                    <span class="fw-bolder text-Orange h3 ms-2 text-app">Daily
+                     <br>   Discounts</span>
+                </div>
+                <div class="line02"></div>
+                <div class="d-flex align-items-center">
+                    <img src="Images/Icon02.png" class="img-app" alt="">
+                    <span class="fw-bolder text-Orange h3 ms-2 text-app">Live
+                    <br>   Tracing</span>
+                </div>
+                <div class="line02"></div>
+    
+                <div class="d-flex align-items-center">
+                    <img src="Images/Icon03.png" class="img-app" alt="">
+                    <span class="fw-bolder text-Orange h3 ms-2 text-app">Quick
+                      <br>  Delivery</span>
+                </div>
+              
+            </div>
+       
+         </div>
+    
+         <div class="row align-items-lg-center   pt-4 g-4">
+            <div class="col-md-6  d-flex  justify-content-end wow bounceInUp">
+                <div class="  ">
+                    <img src="Images/ModApp.png" class="w-100 d-flex justify-content-end" alt="">
+                </div>
+            </div>
+            <div class="col-md-6  d-flex  flex-column mt-md-5 wow bounceInRight">
+                <div class="ps-5">
+                    <h2 class="h1 text-light-Orange fw-bold">Install the app</h2>
+                    <p class="text-gray">It's never been easier to order food. Look for the finest discounts and you'll be lost in a world of delectable food.</p>
+                </div>
+                <div class="d-flex flex-wrap">
+                  <img src="Images/Button.png" class="stor-img" alt="">
+                </div>
+            </div>
+         </div>
+     </div>
+
+     <div class=" position-absolute top-0 bottom-0 start-0 end-0 wow bounceInRight">
+        <div class="custom-shape-divider-bottom-1712588501">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+            </svg>
+        </div>
+     </div>
+    </section>
+
+    <section class="py-5">
+        <div class="BlogSec01 container wow slideInLeft ">
+            <div class="row m-0 g-0 my-5 shadow-lg rounded-4 overflow-hidden ">
+                <div class="col-lg-4   bg-white shadow-lg d-flex flex-column justify-content-center align-items-center  ">
+                    <div class="p-5">
+                        <h2 class="fw-bold">Best deals <span class="text-light-Orange">Crispy Sandwiches</span></h2>
+                        <p class="text-w-gray fw-medium fs-sm">Enjoy the large size of sandwiches. Complete 
+                            perfect slice of sandwiches.</p>
+                            <button class="btn btn-warning bg-light-Orange text-white fw-bold w-100 py-2 mt-4 shadow-sm">Proceed to order <i class="fa-solid fa-chevron-right ms-3 fs-6"></i></button>
+                    </div>
+                </div>
+                <div class="col-lg-8  blog-img">
+                    <img src="Images/blog01.png" alt="blog01.png" class="w-100 h-100 ">
+                </div>
+            </div>
+        </div>
+        <div class="BlogSec01 container wow slideInRight ">
+            <div class="row m-0 g-0 my-5 shadow-lg rounded-4 overflow-hidden">
+                <div class="col-lg-8 ">
+                    <img src="Images/blog02.png" alt="blog01.png" class="w-100 h-100 ">
+                </div>
+                <div class="col-lg-4  bg-white shadow-lg d-flex flex-column justify-content-center align-items-center  ">
+                    <div class="p-5">
+                        <h2 class="fw-bold">Celebrate  parties
+                            with  <span class="text-light-Orange">Fried Chicken</span></h2>
+                        <p class="text-w-gray fw-medium fs-sm">Get the best fried chicken smeared with a lip smacking lemon chili flavor. Check out 
+                            best deals for fried chicken.</p>
+                            <button class="btn btn-warning bg-light-Orange text-white fw-bold w-100 py-2 mt-4 shadow-sm">Proceed to order <i class="fa-solid fa-chevron-right ms-3 fs-6"></i></button>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+        <div class="BlogSec01 container wow slideInLeft">
+            <div class="row m-0 g-0 my-5 shadow-lg rounded-4 overflow-hidden">
+                <div class="col-lg-4  bg-white shadow-lg d-flex flex-column justify-content-center align-items-center  ">
+                    <div class="p-5">
+                        <h2 class="fw-bold">Wanna eat hot & spicy <span class="text-light-Orange">Pizza?</span></h2>
+                        <p class="text-w-gray fw-medium fs-sm">Pair up with a friend and enjoy the 
+                            hot and crispy pizza pops. Try it 
+                            with the best deals.</p>
+                            <button class="btn btn-warning bg-light-Orange text-white fw-bold w-100 py-2 mt-4 shadow-sm">Proceed to order <i class="fa-solid fa-chevron-right ms-3 fs-6"></i></button>
+                    </div>
+                </div>
+                <div class="col-lg-8  blog-img">
+                    <img src="Images/blog03.png" alt="blog01.png" class="w-100 h-100 ">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="backImg py-5">
+        <div class="m-auto text-center py-5 px-5">
+            <h2 class="fw-bold text-white h1">Are you ready to order with <br> the best deals?</h2>
+            <button class="btn btn-warning bg-Orange fw-bold text-white px-4 py-2 mt-4 shadow-lg">Proceed to order <i class="fa-solid fa-chevron-right ms-3"></i></button>
+        </div>
+    </section>
+
+    <footer class="py-5 px-5">
+        <div class="container d-flex align-items-end justify-content-between flex-wrap">
+            <ul class=" text-decoration-none list-unstyled">
+                <li class="fw-bold text-white mb-3 fs-4 cursor-auto">Our top cities</li>
+                <li class="text-light-gray">San Francisco</li>
+                <li class="text-light-gray">Miami</li>
+                <li class="text-light-gray">San Diego</li>
+                <li class="text-light-gray">East Bay</li>
+                <li class="text-light-gray">Long Beach</li>
+            </ul>
+            <ul class=" text-decoration-none list-unstyled">
+                <li class="text-light-gray">Los Angeles</li>
+                <li class="text-light-gray">Washington DC</li>
+                <li class="text-light-gray">Seattle</li>
+                <li class="text-light-gray">Portland</li>
+                <li class="text-light-gray">Nashville</li>
+            </ul>
+            <ul class=" text-decoration-none list-unstyled">
+                <li class="text-light-gray">New York City</li>
+                <li class="text-light-gray">Orange County</li>
+                <li class="text-light-gray">Atlanta</li>
+                <li class="text-light-gray">Charlotte</li>
+                <li class="text-light-gray">Denver</li>
+            </ul>
+            <ul class=" text-decoration-none list-unstyled">
+                <li class="text-light-gray">Chicago</li>
+                <li class="text-light-gray">Phoenix</li>
+                <li class="text-light-gray">Las Vegas</li>
+                <li class="text-light-gray">Sacramento</li>
+                <li class="text-light-gray">Oklahoma City</li>
+            </ul>
+            <ul class=" text-decoration-none list-unstyled">
+                <li class="text-light-gray">Columbus</li>
+                <li class="text-light-gray">New Mexico</li>
+                <li class="text-light-gray">Albuquerque</li>
+                <li class="text-light-gray">Sacramento</li>
+                <li class="text-light-gray">New Orleans</li>
+            </ul>
+        </div>
+        <div class="line container my-5"></div>
+        <div class="container ">
+            <div class="row justify-content-between align-items-start g-3">
+                <div class="col-md-5">
+                    <div class="container d-flex align-items-start justify-content-between p-0 m-0 flex-wrap">
+                        <ul class=" text-decoration-none list-unstyled">
+                            <li class="fw-bold text-white mb-3 fs-4 cursor-auto">Company</li>
+                            <li class="text-light-gray">About us</li>
+                            <li class="text-light-gray">Team</li>
+                            <li class="text-light-gray">Careers</li>
+                            <li class="text-light-gray">Blog</li>
+                        </ul>
+                        <ul class=" text-decoration-none list-unstyled">
+                            <li class="fw-bold text-white mb-3 fs-4 cursor-auto">Contact</li>
+                            <li class="text-light-gray">Help & Support</li>
+                            <li class="text-light-gray">Partner with us </li>
+                            <li class="text-light-gray">Ride with us</li>
+                        </ul>
+                        <ul class=" text-decoration-none list-unstyled">
+                            <li class="fw-bold text-white mb-3 fs-4 cursor-auto">Legal</li>
+                            <li class="text-light-gray">Terms & Conditions</li>
+                            <li class="text-light-gray">Refund & Cancellation</li>
+                            <li class="text-light-gray">Privacy Policy</li>
+                            <li class="text-light-gray">Cookie Policy</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4  d-flex justify-content-end term m-0 p-0 ms-2">
+                    <div >
+                        <h3 class="h5 fw-medium text-w-gray">Follow Us</h3>
+                        <ul class="list-unstyled d-flex align-items-center gap-3  ">
+                            <li class="text-w-gray"><i class="fa-brands fa-instagram"></i></li>
+                            <li class="text-w-gray"><i class="fa-brands fa-facebook"></i></li>
+                            <li class="text-w-gray"><i class="fa-brands fa-twitter"></i></li>
+                        </ul>
+                        <p class="text-w-gray fw-medium pb-4">Receive exclusive offers in your mailbox</p>
+                        <div class="d-flex align-items-center flex-wrap">
+                            <div class="d-flex align-items-center me-2 bg-Gray py-1 px-3 rounded-2">
+                                <i class="fa-solid fa-envelope me-2 text-w-gray"></i>
+                                <input type="text" name="" id="" placeholder="Enter Your email" class="form-control bg-Gray sub-input">
+                            </div>
+                            <button class="btn btn-warning bg-light-Orange text-white fw-bolder shadow-lg my-3">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="line container mt-5"></div>
+        <div class="">
+           <div class="d-flex justify-content-between align-items-center fw-medium text-light-gray container mt-3 text-10">
+            <p>All rights Reserved &copy; Your Company, 2024</p>
+            <p>Made by Andrew Girgis</p>
+           </div>
+        </div>
+
+
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- owl.carousel.js -->
+    <script src="JS/code.jquery.com_jquery-3.7.0.min.js"></script>
+    <script src="JS/owl.carousel.min.js"></script>
+    <!-- ************************************ -->
+    <!-- WOW.JS -->
+    <script src="JS/wow.min.js"></script>
+    <script src="JS/splide.min.js"></script>
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/index.js"></script>
+</body>
+</html>
